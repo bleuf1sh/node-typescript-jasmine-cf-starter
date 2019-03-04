@@ -2,6 +2,9 @@ import { EOL } from 'os';
 import * as moment from 'moment';
 import prettyMs = require('pretty-ms');
 
+/**
+ * General Utilities Class inspired by Batman's utility belt :)
+ */
 export class UtilityBelt {
   private tag: string;
 
