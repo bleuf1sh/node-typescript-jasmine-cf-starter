@@ -1,14 +1,16 @@
 Github
 ---
 
-
-Run options
+Init
 ---
 
 To install the basics and get started
 ~~~~
 ./initStarter.sh
 ~~~~
+
+Run options
+---
 
 To run tests
 ~~~~
