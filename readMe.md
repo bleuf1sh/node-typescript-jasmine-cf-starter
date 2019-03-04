@@ -1,7 +1,7 @@
 Init
 ---
 
-To install the basics and get started
+To install starter dependencies and get started
 ~~~~
 ./initStarter.sh
 ~~~~
