@@ -1,3 +1,5 @@
+#!/bin/bash
+
 GIT_COMMIT="$(git log --date=format:'%Y/%m/%d %A @ %H:%M:%S' -1 --format='%cd %H %B')"
 echo "Setting env GIT_COMMIT=$GIT_COMMIT"
 

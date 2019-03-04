@@ -1,4 +1,6 @@
+#!/bin/bash
 echo 'Installing the freshest dependencies to get you started...'
+
 npm install --save-dev typescript
 npm install --save-dev @types/node
 
