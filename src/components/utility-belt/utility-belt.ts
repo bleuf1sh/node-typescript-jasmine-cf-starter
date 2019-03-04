@@ -9,20 +9,20 @@ export class UtilityBelt {
     this.tag = tag.padEnd(tagPadding, ' ').substring(0, tagPadding);
   }
 
-  logWarning(text: string) {
-    if (process.env.HIDE_WARN_LOGS) {
-      return;
-    }
-    this.log(`------------------------ WARNING ------------------------`);
-    this.log(`WARN|${this.tag}| ${text}${EOL}------------------------`);
-  }
-
   logError(text: string) {
     if (process.env.HIDE_ERRR_LOGS) {
       return;
     }
     this.log(`!!!!!!!!!!!!!!!!!!!!!!!!!! ERROR !!!!!!!!!!!!!!!!!!!!!!!!!!`);
     this.log(`ERRR|${this.tag}| ${text}${EOL}!!!!!!!!!!!!!!!!!!!!!!!!!!`);
+  }
+  
+  logWarning(text: string) {
+    if (process.env.HIDE_WARN_LOGS) {
+      return;
+    }
+    this.log(`------------------------ WARNING ------------------------`);
+    this.log(`WARN|${this.tag}| ${text}${EOL}------------------------`);
   }
 
   logInfo(text: string) {
