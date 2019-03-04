@@ -31,7 +31,7 @@ npm run makeJs
 
 To login to PCF One
 ~~~~
-./pcfOneLogin.sh
+./pcfOneLogin.sh email@example.com
 ~~~~
 
 To push to PCF and inject **git commit** and **cf push timestamp** into the env vars
