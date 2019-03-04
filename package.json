@@ -1,0 +1,25 @@
+{
+  "name": "node-typescript-jasmine-cf-starter",
+  "version": "0.0.1",
+  "description": "Starter skeleton for Node using typscript and Cloud Foundry and using jasmine for tests",
+  "author": "bleuf1sh",
+  "license": "MIT",
+  "main": "app.ts",
+  "engines": {
+    "node": "10.x"
+  },
+  "scripts": {
+    "jasmine": "jasmine",
+    "test": "ts-node node_modules/jasmine/bin/jasmine --config=jasmine-config.json",
+    "dev": "npm run clean && ts-node-dev --respawn --transpileOnly src/app.ts",
+    "start": "ts-node src/app.ts",
+    "clean": "rm -rf distJs && mkdir distJs",
+    "makeJs": "npm run clean && tsc"
+  },
+  "dependencies": {
+   
+  },
+  "devDependencies": {
+    
+  }
+}
