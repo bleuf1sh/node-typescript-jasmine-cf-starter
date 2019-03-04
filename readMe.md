@@ -34,7 +34,7 @@ To login to PCF One
 ./pcfOneLogin.sh
 ~~~~
 
-To push to PCF
+To push to PCF and inject GIT commit and PUSH date into the env vars
 ~~~~
 ./pcfPush.sh
 ~~~~
