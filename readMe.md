@@ -29,6 +29,9 @@ Transpile TS files into JS files saved to the **distJs** folder
 npm run makeJs
 ~~~~
 
+Cloud Foundry
+---
+
 To login to PCF One
 ~~~~
 ./pcfOneLogin.sh email@example.com
