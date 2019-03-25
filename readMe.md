@@ -8,7 +8,7 @@ To install starter dependencies and get started
 
 afterwards you'll have everything setup with the latest goodies :)
 
-Run options
+Run options (after running ./initStarter.sh)
 ---
 
 To run tests
