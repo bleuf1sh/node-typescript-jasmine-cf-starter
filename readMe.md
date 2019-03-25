@@ -6,6 +6,8 @@ To install starter dependencies and get started
 ./initStarter.sh
 ~~~~
 
+afterwards you'll have everything setup with the latest goodies :)
+
 Run options
 ---
 
